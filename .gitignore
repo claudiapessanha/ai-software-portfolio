@@ -1,0 +1,9 @@
+# Keep the public portfolio limited to intentional, reviewed materials.
+.env
+.env.*
+*.pem
+*.key
+node_modules/
+work/
+.DS_Store
+Thumbs.db
