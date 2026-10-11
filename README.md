@@ -19,7 +19,7 @@ My focus is the connection between a business need and a usable interface: clear
 | Project | Focus | Evidence reviewed |
 | :--- | :--- | :--- |
 | [Office Operations Hub](#01--office-operations-hub) | Internal workflows and module access | Code and documentation |
-| [Office Cash Control](#02--office-cash-control) | Cash movements and audit workflows | Author account; hub integration |
+| [Office Cash Control](#02--office-cash-control) | Cash movements and audit workflows | Author account; screenshot; hub integration |
 | [Monthly Dashboard](#03--monthly-dashboard) | Sales checking, shifts, and reconciliation | Code and documentation |
 | [Damaged Goods Management](#04--damaged-goods-management) | Stock, replacement requests, and recovery | Code and documentation |
 | [Shopee Profit Calculator](#05--shopee-profit-calculator) | Costs, fees, and pricing scenarios | Code and documentation |
@@ -31,6 +31,10 @@ The Operations Hub brings together internal modules and links to separate applic
 ## 01 · Office Operations Hub
 
 *Central do Escritório — internal operational management platform*
+
+![office operations hub — actual application interface](assets/office-operations-hub.png)
+
+*Actual application interface, rendered locally from the app components with fictional demonstration data. The original interface language is Portuguese.*
 
 **Problem.** Different operational workflows need a consistent entry point and controlled access for different responsibilities.
 
@@ -54,6 +58,10 @@ The Operations Hub brings together internal modules and links to separate applic
 
 *Caixa do Escritório — cash management and auditing*
 
+![office cash control — actual application interface](assets/office-cash-control.png)
+
+*Author-provided application screenshot. Cropped and redacted with AI assistance to hide names, amounts, and operational details.*
+
 **Problem.** Daily cash operations need consistent movement rules, clear reconciliation procedures, and traceability.
 
 **Solution.** A separate application for cash control, transactions, and auditing, accessible through the Operations Hub.
@@ -64,7 +72,7 @@ The Operations Hub brings together internal modules and links to separate applic
 - Discrepancy handling and permission requirements.
 - Audit workflows for operational accountability.
 
-**Technology evidence:** The hub's external integration is verified. The Cash Control application's own source code was not available in the reviewed repositories, so its stack and implementation details are not asserted here.
+**Technology evidence:** The hub's external integration and the author-provided dashboard screenshot are verified. The Cash Control application's own source code was not available in the reviewed repositories, so its stack and implementation details are not asserted here.
 
 **My role.** Defined the financial movement rules, permissions, and audit requirements. Personally tested the system and followed its rollout into real operations. Its operational use is reported from my own experience.
 
@@ -73,6 +81,10 @@ The Operations Hub brings together internal modules and links to separate applic
 ## 03 · Monthly Dashboard
 
 *Dashboard Mensal — sales checking and marketplace reconciliation*
+
+![monthly dashboard — actual application interface](assets/monthly-dashboard.png)
+
+*Actual application interface, rendered locally from the app components with fictional demonstration data. The original interface language is Portuguese.*
 
 **Problem.** Sales checking requires more than monthly totals: operational days, shifts, payment information, and marketplace records must be reviewed together.
 
@@ -96,6 +108,10 @@ The Operations Hub brings together internal modules and links to separate applic
 
 *Controle de Avarias — damaged stock and replacement requests*
 
+![damaged goods management — actual application interface](assets/damaged-goods-management.png)
+
+*Actual application interface, rendered locally from the app components with fictional demonstration data. The original interface language is Portuguese.*
+
 **Problem.** Damaged stock must be tracked through requests and replacement outcomes while preserving quantities and historical costs.
 
 **Solution.** An internal module that connects stock entries, supplier requests, replacement receipts, and recovery reporting.
@@ -117,6 +133,10 @@ The Operations Hub brings together internal modules and links to separate applic
 ## 05 · Shopee Profit Calculator
 
 *Calculadora Shopee / Shopee Profit Suite — pricing decision support*
+
+![shopee profit calculator — actual application interface](assets/shopee-profit-calculator.png)
+
+*Actual application interface, rendered locally from the app components with fictional demonstration data. The original interface language is Portuguese.*
 
 **Problem.** Product cost alone does not show whether a marketplace selling price covers fees or meets a profitability target.
 
@@ -142,6 +162,10 @@ The Operations Hub brings together internal modules and links to separate applic
 
 *Rotinas do Dia — corporate tasks and recurring routines*
 
+![daily routines — actual application interface](assets/daily-routines.png)
+
+*Actual application interface, rendered locally from the app components with fictional demonstration data. The original interface language is Portuguese.*
+
 **Problem.** End-of-day summaries can lose the timing and context of work. Recurring tasks also need explicit scheduling and follow-up.
 
 **Solution.** An internal module for recording completed tasks throughout the day and comparing activity with each person's routine.
@@ -163,6 +187,10 @@ The Operations Hub brings together internal modules and links to separate applic
 ## 07 · Operational Incidents
 
 *Ocorrências — incident recording and follow-up*
+
+![operational incidents — actual application interface](assets/operational-incidents.png)
+
+*Actual application interface, rendered locally from the app components with fictional demonstration data. The original interface language is Portuguese.*
 
 **Problem.** Operational discussions in a messaging group can be difficult to retrieve and follow through to resolution.
 
@@ -198,7 +226,7 @@ I do not present AI-generated implementation as code I wrote entirely by hand. M
 
 Descriptions were checked against the available private repositories and documentation on October 10, 2026. Tool usage and personal responsibilities are identified from my own development history. Office Cash Control has a narrower evidence basis, explicitly stated above.
 
-This repository contains portfolio writing only. It includes no private application source code, business records, credentials, internal configuration, production administration links, or production screenshots. No measured business outcomes are claimed without supporting evidence.
+This repository contains portfolio documentation and seven application screenshots. Six show the actual app components rendered locally with fictional data and an isolated demonstration data layer. The Cash Control image is an author-provided screenshot, cropped and redacted with AI assistance. No screenshots connect viewers to an internal system. No private application source code, unredacted business records, credentials, internal configuration, or production administration links are included. No measured business outcomes are claimed without supporting evidence.
 
 ## Let's connect
 
